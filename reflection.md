@@ -2,3 +2,5 @@ Use this file to record your reflection on this assignment.
 
 - Which methods did you decide to `overload`, and why?
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+
+For the cafe class, I overloaded the constructor so if someone doesn't have the whole cafe up and running yet, they can still create a cafe without a name or any of the stock values. I also overloaded sell coffee to include if someone orders black coffee with no cream or sugars. For the house class I overloaded the constructor two times, one for if you only know the name and address and nothing else and one for if you don't know the name of the house. For the library I also overloaded the constructor twice, one for if you don't know the address, and one for if you only know the name. For this assignment, going through each class to implement a new method of the same variety was helpful, rather than finishing one class completely and moving on to the next. I would recommend making sure you understand overloading completely before beginning the assignment, otherwise you will just get stuck. 

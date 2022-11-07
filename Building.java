@@ -1,10 +1,15 @@
 import javax.management.RuntimeErrorException;
 
+/** class Building creates an instance of building with navigation methods and accessors
+ */
 public class Building {
-
+    /** The name of the building */
     protected String name;
+    /** address of building*/
     protected String address;
+    /** number of floors the building has */
     protected int nFloors;
+    /** Indicates what floor the user is currently on */
     protected int activeFloor = -1; // Default value indicating we are not inside this building
 
     /* Default constructor */
